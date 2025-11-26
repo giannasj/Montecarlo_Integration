@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.chart.LineChart?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<VBox alignment="CENTER" xmlns:fx="http://javafx.com/fxml" fx:controller="ValueController">
+    <children>
+        <LineChart fx:id="valuesChart" title="Calculated Value">
+            <xAxis>
+                <NumberAxis fx:id="xAxis" label="Number of Samples"/>
+            </xAxis>
+            <yAxis>
+                <NumberAxis fx:id="yAxis" label="Calculated Value"/>
+            </yAxis>
+        </LineChart>
+        <Label fx:id="label"/>
+        <Button fx:id="switchToSamples" text="Switch to Samples" onAction="#switchToSamples"/>
+    </children>
+</VBox>
