@@ -1,0 +1,48 @@
+#title {
+    -fx-font-weight: bold;
+    font-weight:bold;
+    -fx-font-size: large;
+    font-size:large;
+}
+
+.chart-line-symbol {
+    -fx-background-radius: 3px;
+    -fx-padding: 3px;
+    padding:3px;
+}
+
+.default-color0.chart-series-line {
+   -fx-stroke:transparent;
+   stroke:transparent;
+}
+
+.default-color0.chart-line-symbol {
+    -fx-shape: null;
+    -fx-background-color:green;
+    background-color:green;
+}
+
+.default-color1.chart-series-line {
+   -fx-stroke:transparent;
+   stroke:transparent;
+}
+
+.default-color1.chart-line-symbol {
+    -fx-shape: null;
+    -fx-background-color:red;
+    background-color:red;
+}
+
+.default-color2.chart-series-line {
+   -fx-stroke:black;
+   stroke:black;
+}
+
+.default-color2.chart-line-symbol {
+    -fx-shape: null;
+    -fx-background-color: black;
+    background-color:black;
+    -fx-background-radius: 1px;
+    -fx-padding: 1px;
+    padding:1px;
+}
