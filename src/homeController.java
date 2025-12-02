@@ -58,7 +58,7 @@ public class homeController{
         Timeline timeline = new Timeline();
         graphAnimation animation = new graphAnimation();
 
-        timeline.getKeyFrames().add(new KeyFrame(Duration.millis(5), event ->  {
+        timeline.getKeyFrames().add(new KeyFrame(Duration.millis(5), event ->  { //change keyframe duration here
             Point point = animation.nextStep(); //generate new random point
             if (point.isWithin()) { //plotting inside points
                 //replacement position formula

@@ -33,10 +33,12 @@ public class valuesController {
 
         valuesChart.getData().add(value);
 
+        //timeline setup found at https://stackoverflow.com/questions/62963502/how-do-i-update-a-xychart-in-realtime-in-java-using-javafx
+
         Timeline timeline = new Timeline();
         graphAnimation animation = new graphAnimation();
         
-        timeline.getKeyFrames().add(new KeyFrame(Duration.millis(5), event ->  {
+        timeline.getKeyFrames().add(new KeyFrame(Duration.millis(5), event ->  { //change keyframe duration here
                 animation.nextStep();
                 /*finding the calculated value:
                 first, the net inside count is found. this is the number of 'positive' 'inside' points minus the number of
