@@ -16,7 +16,8 @@ The Montecarlo Integration Method utilizes the sampling of a large number of ran
   - src and lib files have been provided, but a bin folder should be created
 
 ## Changing the Integration
-Changing the function that is being integrated is done in the Function.java file under the evaluateAt method.
-Changing the bounds of integration is done in the Main.java file in the initialization of the static 'function' variable. 
-Changing the delay between keyframes in the graph animations can be done in the homeController (for the random sampling graph) and the valuesController (for the value graph). Look for the section with the timeline and there will be a comment directing you to the line where the delay can be changed.
+  - Changing the function that is being integrated is done in the Function.java file under the evaluateAt method.
+  - Changing the bounds of integration is done in the Main.java file in the initialization of the static 'function' variable.
+  - Changing the delay between keyframes in the graph animations can be done in the homeController (for the random sampling graph) and the valuesController (for the value graph). Look for the section with the timeline and there will be a comment directing you to the line where the delay can be changed.
+
 
