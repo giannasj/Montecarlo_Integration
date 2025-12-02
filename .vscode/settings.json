@@ -1,0 +1,19 @@
+{
+    "java.project.sourcePaths": [
+        "src"
+    ],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": [
+        "c:\\Users\\jimmy\\.vscode\\montecarlo\\lib\\javafx.controls.jar",
+        "c:\\Users\\jimmy\\.vscode\\montecarlo\\lib\\javafx.web.jar",
+        "c:\\Users\\jimmy\\.vscode\\montecarlo\\lib\\jdk.jsobject.jar",
+        "c:\\Users\\jimmy\\.vscode\\montecarlo\\lib\\javafx.base.jar",
+        "c:\\Users\\jimmy\\.vscode\\montecarlo\\lib\\javafx.graphics.jar",
+        "c:\\Users\\jimmy\\.vscode\\montecarlo\\lib\\javafx.media.jar",
+        "c:\\Users\\jimmy\\.vscode\\montecarlo\\lib\\jfx.incubator.richtext.jar",
+        "c:\\Users\\jimmy\\.vscode\\montecarlo\\lib\\javafx-swt.jar",
+        "c:\\Users\\jimmy\\.vscode\\montecarlo\\lib\\javafx.fxml.jar",
+        "c:\\Users\\jimmy\\.vscode\\montecarlo\\lib\\jfx.incubator.input.jar",
+        "c:\\Users\\jimmy\\.vscode\\montecarlo\\lib\\javafx.swing.jar"
+    ]
+}
