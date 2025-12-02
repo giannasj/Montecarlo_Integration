@@ -1,5 +1,3 @@
-package class_files;
-import Main;
 public class graphAnimation {
     private int currentCount;
     private int insideCount;
